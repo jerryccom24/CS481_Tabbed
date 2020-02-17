@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="My Dogs"
+             IconImageSource="pets.png"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework3_tabbed.tab2"
+             >
+    <ContentPage.Content>
+           <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="2.5*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>               
+                </Grid.ColumnDefinitions>
+                        <!-- Place new controls here -->
+                <StackLayout Grid.Column="0" Grid.Row="0" BackgroundColor="LightCoral">
+                    <Label Text="My Dogs" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+
+                <Image Source="frenchie.jpg"
+                       Grid.Column="0"
+                       Grid.Row="1"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="StartAndExpand"
+                       ></Image>
+
+                <Label Grid.Column="0" Grid.Row="2"
+                       Padding="10"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="StartAndExpand"
+                       Text="As of now, I only own 1 dog. I am currently the owner of a beautiful 1 year old French Bulldog. His name is Buddy. He is often very playful. He enjoys eating and sleeping. This dog demands attention and love whenever people are around."></Label>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>

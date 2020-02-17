@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Home"
+             IconImageSource="home.png"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework3_tabbed.tab1"
+             >
+    <ContentPage.Content>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="3.5*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                
+
+            </Grid.ColumnDefinitions>
+            
+                <!-- Place new controls here -->
+                <StackLayout Grid.Column="0" Grid.Row="0"  BackgroundColor="LightCoral" Padding="10">
+                    <Label Text="Top Ranked Dogs of 2018" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" ></Label>                    
+                    <Label Text="Source: https://www.akc.org/most-popular-breeds/" FontSize="Small" Padding="10" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <ScrollView Orientation="Vertical" Padding="10"  Grid.Column="0" Grid.Row="1">
+                    <StackLayout>
+                        <Label Text="#1   Retrievers (Labrador)"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#2   German Sheperd Dogs"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#3   Retrievers (Golden)"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#4   French Bulldogs"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" ></Label>
+                        <Label Text="#5   Bulldogs"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#6   Beagles"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#7   Poodles"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#8   Rottweilers"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#9   Pointers (German Shorthaired)"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#10  Yorkshire Terriers"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#11  Boxers"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#12  Daschunds"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#13  Pembroke Welsh Corgis"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#14  Siberian Huskies"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#15  Australian Sheperds"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#16  Great Danes"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#17  Doberman Pinschers"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#18  Cavalier King Charles Spaniels"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        <Label Text="#19  Miniature Schnauzers"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10" BackgroundColor="LightGray" WidthRequest="400"></Label>
+                        <Label Text="#20  Shih Tzu"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large" Padding="10"></Label>
+                        
+
+                        
+                    </StackLayout>
+                </ScrollView>
+
+            
+         
+          </Grid>  
+    </ContentPage.Content>
+</ContentPage>

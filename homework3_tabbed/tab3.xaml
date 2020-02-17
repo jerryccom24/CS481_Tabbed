@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Info"
+             IconImageSource="info.png"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="homework3_tabbed.tab3"
+             Appearing="ContentPage_Appearing">
+    <ContentPage.Content>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                        <!-- Place new controls here -->
+            <StackLayout Grid.ColumnSpan="2" Grid.Row="0" BackgroundColor="LightCoral">
+                <Label Text="Information" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="1"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand"
+                         >
+                <Label Text="AKC Popularity:" FontAttributes="Bold" FontSize="Large"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="1"
+                         Grid.Row="1"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Rank #4"></Label>
+             
+            </StackLayout>
+
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="2"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Height:" FontAttributes="Bold" FontSize="Large"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="1"
+                         Grid.Row="2"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="11-13 inches"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="3"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Weight:" FontAttributes="Bold" FontSize="Large"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="1"
+                         Grid.Row="3"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Under 28 pounds"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="4"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Life Expectancy:" FontAttributes="Bold" FontSize="Large"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="1"
+                         Grid.Row="4"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="10-12 Years"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="5"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Group:" FontAttributes="Bold" FontSize="Large"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="1"
+                         Grid.Row="5"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Non-Sporting Group"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="6"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Temperament:" FontAttributes="Bold" FontSize="Large"></Label>
+             
+            </StackLayout>
+
+            <StackLayout Grid.Column="1"
+                         Grid.Row="6"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Adaptable, Playful, Smart"></Label>
+             
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
