@@ -20,8 +20,9 @@
             
                 <!-- Place new controls here -->
                 <StackLayout Grid.Column="0" Grid.Row="0"  BackgroundColor="LightCoral" Padding="10">
-                    <Label Text="Top Ranked Dogs of 2018" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" ></Label>                    
-                    <Label Text="Source: https://www.akc.org/most-popular-breeds/" FontSize="Small" Padding="10" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
+                    <Label Text="Top 20 Dogs of 2018" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" ></Label>                    
+                    
+                    <Button WidthRequest="250" BackgroundColor="LightGray" FontAttributes="Bold" TextColor="Black" Text="View Complete List on AKC.org" Clicked="GoToWeb" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"></Button>
                 </StackLayout>
 
                 <ScrollView Orientation="Vertical" Padding="10"  Grid.Column="0" Grid.Row="1">

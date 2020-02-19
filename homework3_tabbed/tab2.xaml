@@ -28,11 +28,15 @@
                        VerticalOptions="StartAndExpand"
                        ></Image>
 
-                <Label Grid.Column="0" Grid.Row="2"
-                       Padding="10"
-                       HorizontalOptions="CenterAndExpand"
-                       VerticalOptions="StartAndExpand"
-                       Text="As of now, I only own 1 dog. I am currently the owner of a beautiful 1 year old French Bulldog. His name is Buddy. He is often very playful. He enjoys eating and sleeping. This dog demands attention and love whenever people are around."></Label>
-            </Grid>
+                <ScrollView Orientation="Vertical" Grid.Column="0" Grid.Row="2" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand">
+                <StackLayout>
+                    <Label 
+                      
+                       Padding="0"
+                       FontSize="Large"
+                       Text="As of now, I only own 1 dog. I am currently the owner of a beautiful 1 year old French Bulldog. His name is Buddy. He is often very playful. He enjoys eating and sleeping. This dog demands attention and love whenever people are around. However, owning a dog can be a lot of work. Often times, he will make a huge mess while I am gone out of the house. I suppose it is all worth it in the end because he is always there to keep me company at the end of the day. Sorry I drag this paragraph on so long -- I am really trying to make it engage the scroll view."></Label>
+                </StackLayout>
+                </ScrollView>
+           </Grid>
     </ContentPage.Content>
 </ContentPage>

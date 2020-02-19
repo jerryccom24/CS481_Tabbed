@@ -11,5 +11,10 @@ namespace homework3_tabbed
         {
             InitializeComponent();
         }
+
+        void GoToWeb(Object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://www.akc.org/most-popular-breeds/2018-full-list/"));
+        }
     }
 }
